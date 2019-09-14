@@ -1,16 +1,17 @@
 body{
+    background-color: #106792;
     margin: 0;
     padding: 0;
 }
 
 #header{
     height: 12vh;
-    background-color: #0a2533;
+    background-color: #106792;
 }
 
 #iota_wrap{
     left: 1vw;
-    padding-left: 0.5vw;
+    padding-left: 2vw;
     height: inherit;
     width: auto;
     float: left;
@@ -28,9 +29,9 @@ ul.navbar{
     float: right;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0 2vw 0 0;
     overflow: hidden;
-    background-color: #0a2533;
+    background-color: #106792;
 }
 
 ul.navbar li{
@@ -66,6 +67,29 @@ ul.navbar li a.active{
 ul.navbar li.left{
     float: left;
 }
+
+.section_heading{
+    margin-left: 8%;
+}
+
+#club_intro{
+    font-size: 1.4em;
+    margin-left: 12%;
+    width: 70%;
+}
+
+.info{
+    border: 1vh solid #a3a3a3;
+    padding: 20px;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 4vw;
+    border-bottom-left-radius: 4vw;
+    border-bottom-right-radius: 4vw;
+}
+
+
+
+
 
 #sessions{
     margin-left: 15%;
