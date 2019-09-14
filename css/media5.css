@@ -3,6 +3,7 @@
 }
 
 #iota_wrap{
+    padding: 0;
     align-content: center;
     width: 100%;
 }
@@ -30,13 +31,26 @@ ul.navbar li {
 ul.navbar li a{
     font-size: 1em;
     padding: 1.5vh 0.5vh 1.5vh 0.5vh;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 0.1em;
     display: block;
     color: #fff;
     text-align: center;
     text-decoration: none;
 }
 
-
 #club_intro{
     font-size: 1em;
+    margin-left: 8%;
 }
+
+.info{
+    font-size: 1em;
+    margin-left: 8%;
+}
+
+.heading_image{
+    width: 30%;
+}
+
