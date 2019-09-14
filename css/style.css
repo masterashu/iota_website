@@ -86,14 +86,34 @@ ul.navbar li.left{
     padding: 20px;
     border-top-left-radius: 4vw;
     border-top-right-radius: 4vw;
-    border-bottom-left-radius: 1vw;
+    border-bottom-left-radius: 4vw;
     border-bottom-right-radius: 4vw;
     background-color: rgb(82, 30, 179);   
+}
+
+.brtl{
+    border-top-left-radius: 1vw;
+}
+.brtr{
+    border-top-right-radius: 1vw;
+}
+.brbl{
+    border-bottom-left-radius: 1vw;
+}
+.brbr{
+    border-bottom-right-radius: 1vw;
 }
 
 .info_heading{
     margin-top: 1vh;
     margin-bottom: 0.5vh;
+}
+
+.heading_image{
+    border-radius: 1.5vh;
+    float: left;
+    width: 10%;
+    padding-right: 2vw;
 }
 
 .color1{ background-color: rgb(16, 78, 63); }
