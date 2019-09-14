@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    height: 12vh;
+    background-color: #0a2533;
+}
+
+#iota_wrap{
+    left: 1vw;
+    padding-left: 0.5vw;
+    height: inherit;
+    width: auto;
+    float: left;
+    
+}
+
+#iota_logo{
+    width: fit-content;
+    height: inherit;
+}
+
+ul.navbar{
+    right: 0px;
+    height: inherit;
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0a2533;
+}
+
+ul.navbar li{
+    float: left;
+}
+
+ul.navbar li a{
+    font-size: 1.3em;
+    padding: 4.5vh 1vw 4.5vh 1vh;
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.clearfloat{
+    clear: both;
+}
+
+.space{
+    height: 2vh;
+}
+
+ul.navbar li a:hover:not(.active){
+    background-color: #463;
+}
+
+/* later */
+ul.navbar li a.active{
+    background-color: #2ac;
+}
+
+ul.navbar li.left{
+    float: left;
+}
+
+#sessions{
+    margin-left: 15%;
+    width: 70%;
+    height: 10vh;
+}
+
+
+
+

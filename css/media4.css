@@ -1,0 +1,43 @@
+#header{
+    height: 24vh;
+    background-color: #0a2533;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+#iota_wrap{
+    width: 100%;
+}
+
+#iota_logo{
+    padding: 0;
+    background-size: 100% 100%;
+    object-fit: contain;
+    min-width: 100%;
+    min-height: 100%
+}
+
+ul.navbar{
+    width: 100%;
+    float: left;
+    height: unset;
+    right: unset;
+}
+
+ul.navbar li {
+    float: left;
+    width: 100%;
+}
+
+ul.navbar li a{
+    font-size: 1em;
+    padding: 1.5vh 0.5vh 1.5vh 0.5vh;
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+
