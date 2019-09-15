@@ -1,0 +1,14 @@
+.members{
+    width: 90vw;
+    grid-template-columns: repeat(auto-fit, 248px);
+}
+
+.card{
+    position: relative;
+    width: 250px;
+    height: 300px;
+}
+
+
+
+

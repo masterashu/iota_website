@@ -1,0 +1,16 @@
+.members{
+    display: unset;
+}
+
+.card{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    left: 50%;
+    transform: translateX(-55%);
+    -webkit-transform: translateX(-55%);
+}
+
+
+
+
