@@ -4,6 +4,8 @@
 body {
     background: #eee;
     /* font-family: 'Lily Script One'; */
+    background: url("../../img/background5.jpg") no-repeat center center fixed;
+    background-size: cover;
     font-family: 'Livvic';
     text-align: justify;
 }
@@ -49,9 +51,9 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
-    background: white;
+    background: rgb(25, 104, 51);
     line-height: 300px;
-    color: #03446A;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 60px;
     border-radius: 5px;
@@ -59,9 +61,16 @@ body {
     overflow: hidden
 }
 
+.front{
+    opacity: 0.85;
+}
+
 .back {
-    color: #632;
     font-size: 1.1em;
+    opacity: 0.7;
+    background: #03446A;
+    color: white;
+    transform: rotateY( 180deg);
 }
 
 .back a {
@@ -102,11 +111,7 @@ body {
     font-size: 0.5em;
 }
 
-.back {
-    background: #03446A;
-    color: white;
-    transform: rotateY( 180deg);
-}
+
 /* 
 .back a img{
     src: url(../../img/email.png);
