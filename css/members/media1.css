@@ -6,3 +6,7 @@
 .card{
     width: 275px;
 }
+
+.description{
+    margin-top: -100%;
+}

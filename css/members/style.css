@@ -19,7 +19,7 @@ body {
     height: 90vh;
     margin: 4vh auto;
     padding-right: 5vw;
-    overflow: auto;
+    /* overflow: auto; */
 }
 
 .card {
@@ -108,6 +108,22 @@ body {
     background: #03446A;
     color: white;
     transform: rotateY( 180deg);
+}
+
+.clearfloat{
+    clear: both;
+}
+
+.space{
+    height: 2vh;
+}
+
+.space2{
+    height: 4vh;
+}
+
+.space3{
+    height: 8vh;
 }
 
 
