@@ -167,3 +167,44 @@
     background-color: #fff;
     margin-bottom: 50%;
 }
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 70%;
+    margin: auto;
+}
+
+.carousel-caption{
+    position: relative;
+    font-size: 0.9em;
+    display: block;
+    padding: 1em;
+    height: 15%;
+    border-radius: 2em;
+    bottom: 1vh;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.carousel-caption a, p, h3{
+    border-radius: 1em;
+    display: block;
+    text-decoration: underline;
+}
+
+.carousel-caption p, h3{
+    color: #000;
+    background-color: rgba(255,255,255,0.6);
+}
+
+.carousel-caption p{
+    padding-bottom: 0.4em 0 0.6em 0;
+}
+
+.item img{
+    width: 60%;
+    background: rgba(0,0,0,0.7);
+    padding: 2%;
+    border: 0.2em cyan solid;
+    border-radius: 1em;
+}

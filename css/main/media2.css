@@ -18,8 +18,30 @@ ul.navbar li a {
     width: 20%;
 }
 
+
+#myCarousel{
+    height: 80vh;
+}
+
+.item{
+    height: inherit;
+}
+
+#left-carousel-control, #right-carousel-control{
+    font-size: 0.9em;
+}
+
+
+.carousel-inner{
+    height: inherit;
+}
+
 .carousel-caption {
-    right: 20%;
-    left: 20%;
-    padding-bottom: 30px
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 30%);
+}
+
+.carousel-caption p, h3{
+    padding: 0.2em;
 }

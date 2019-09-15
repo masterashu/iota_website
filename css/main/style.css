@@ -164,8 +164,3 @@ ul.navbar li.left {
 #sessions {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-
-.carousel-inner>.item>img, .carousel-inner>.item>a>img {
-    width: 70%;
-    margin: auto;
-}

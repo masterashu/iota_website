@@ -6,3 +6,16 @@ ul.navbar li a {
 .heading_image {
     width: 16%;
 }
+
+.carousel-inner{
+    height: 80vh;
+}
+
+.item{
+    height: inherit;
+    position: relative;
+}
+
+.item img{
+    width: 80vh;
+}
