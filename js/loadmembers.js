@@ -13,7 +13,9 @@ $(document).ready(function(){
           $('<div/>', { 'class': 'card_details' }).append(
             $('<h1/>', { 'class': 'name_title' }).append(i_member.name)
           )
-          .append('<p/>', { 'class': 'description' }).append(i_member.position)
+          .append(
+            $('<p/>', { 'class': 'description' }).append(i_member.position)
+          )
         )
       )
       .append(
