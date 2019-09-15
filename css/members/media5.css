@@ -3,6 +3,7 @@
 }
 
 .card{
+    padding: 5px;
     position: relative;
     width: 250px;
     height: 300px;
@@ -11,6 +12,8 @@
     -webkit-transform: translateX(-55%);
 }
 
-
+.back img{
+    margin-top: -110%;
+}
 
 
