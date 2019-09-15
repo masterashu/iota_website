@@ -56,3 +56,8 @@ ul.navbar li a{
 }
 
 
+.carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 30px
+}

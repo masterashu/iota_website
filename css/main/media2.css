@@ -18,3 +18,9 @@ ul.navbar li a{
 .heading_image{
     width: 20%;
 }
+
+.carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 30px
+}
