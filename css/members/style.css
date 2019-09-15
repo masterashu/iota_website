@@ -1,7 +1,6 @@
 /* @import 'https://fonts.googleapis.com/css?family=Lily+Script+One'; */
 
 @import 'https://fonts.googleapis.com/css?family=Livvic&display=swap';
-
 body {
     background: #eee;
     /* font-family: 'Lily Script One'; */
@@ -9,7 +8,7 @@ body {
     text-align: justify;
 }
 
-.members{
+.members {
     display: grid;
     grid-template-columns: repeat(auto-fit, 300px);
     grid-gap: 1rem;
@@ -46,8 +45,7 @@ body {
     transition: transform 0.5s;
 }
 
-.front,
-.back {
+.front, .back {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -61,21 +59,21 @@ body {
     overflow: hidden
 }
 
-.back{
+.back {
     color: #632;
     font-size: 1.1em;
 }
 
-.back a{
+.back a {
     color: #fff;
     text-decoration: underline;
 }
 
-.back div{
+.back div {
     margin-top: 20%;
 }
 
-.back img{
+.back img {
     margin-top: -100%;
     margin-left: -50px;
     width: 100px;
@@ -110,20 +108,18 @@ body {
     transform: rotateY( 180deg);
 }
 
-.clearfloat{
+.clearfloat {
     clear: both;
 }
 
-.space{
+.space {
     height: 2vh;
 }
 
-.space2{
+.space2 {
     height: 4vh;
 }
 
-.space3{
+.space3 {
     height: 8vh;
 }
-
-

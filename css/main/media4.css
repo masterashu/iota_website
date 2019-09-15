@@ -1,4 +1,4 @@
-#header{
+#header {
     height: 24vh;
     display: flex;
     justify-content: center;
@@ -6,11 +6,11 @@
     overflow: hidden
 }
 
-#iota_wrap{
+#iota_wrap {
     width: 100%;
 }
 
-#iota_logo{
+#iota_logo {
     padding: 0;
     background-size: 100% 100%;
     object-fit: contain;
@@ -18,7 +18,7 @@
     min-height: 100%
 }
 
-ul.navbar{
+ul.navbar {
     width: 100%;
     float: left;
     height: unset;
@@ -30,7 +30,7 @@ ul.navbar li {
     width: 100%;
 }
 
-ul.navbar li a{
+ul.navbar li a {
     font-size: 1em;
     padding: 1.5vh 0.5vh 1.5vh 0.5vh;
     margin-top: 0.1em;
@@ -40,21 +40,19 @@ ul.navbar li a{
     text-decoration: none;
 }
 
-#club_intro{
+#club_intro {
     font-size: 1.1em;
     margin-left: 9%;
 }
 
-.info{
+.info {
     font-size: 1.1em;
     margin-left: 9%;
 }
 
-.heading_image{
+.heading_image {
     width: 20%;
 }
-
-
 
 .carousel-caption {
     right: 20%;

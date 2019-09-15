@@ -1,8 +1,8 @@
-.members{
+.members {
     display: unset;
 }
 
-.card{
+.card {
     padding: 5px;
     position: relative;
     width: 250px;
@@ -12,11 +12,10 @@
     -webkit-transform: translateX(-55%);
 }
 
-.back img{
+.back img {
     margin-top: -110%;
 }
 
-.description{
+.description {
     margin-top: -100%;
 }
-

@@ -9,6 +9,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
 }
+
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
     display: block;
     max-width: 100%;
@@ -61,7 +62,6 @@
         left: 0
     }
 }
-
 
 @media screen and (min-width:768px) {
     .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
@@ -134,11 +134,9 @@
     text-shadow: none
 }
 
-
 /* My Changes */
 
-
-#projects{
+#projects {
     position: relative;
     height: 80vh;
     width: 90vw;
@@ -146,15 +144,15 @@
     transform: translateX(-50%);
 }
 
-#left-carousel-control{
+#left-carousel-control {
     left: 0;
 }
 
-#right-carousel-control{
+#right-carousel-control {
     right: 0;
 }
 
-#left-carousel-control, #right-carousel-control{
+#left-carousel-control, #right-carousel-control {
     top: 40%;
     position: absolute;
     font-weight: bolder;
@@ -168,7 +166,4 @@
     display: block;
     background-color: #fff;
     margin-bottom: 50%;
-
 }
-
-
