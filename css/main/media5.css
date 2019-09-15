@@ -80,3 +80,33 @@ ul.navbar li a {
 .carousel-caption p, h3{
     padding: 0.2em;
 }
+
+
+
+#footer{
+    font-size: 1vw;
+    margin: 0;
+    margin-top: 3em;
+    height: 12vh;
+    width: 100%;
+    background: #1f2d4f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    bottom: 0;
+}
+
+#footer img{
+    height: 5em;
+    width: 15em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#footer div{
+    text-align: right;
+    height: 5em;
+    padding: 1em 2em;
+    color: #fff;
+    box-sizing: border-box;
+}
