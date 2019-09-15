@@ -29,8 +29,7 @@ $(document).ready(function(){
         )
       )
     );
-    $(".members:first").append(txt);
+    $("#members1").append(txt);
   }
-
 });
 
