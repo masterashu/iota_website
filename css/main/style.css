@@ -165,30 +165,29 @@ ul.navbar li.left {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-#footer{
-    font-size: 1vw;
-    bottom: 0;
+footer{
     margin-bottom: 0;
-    margin-top: 3em;
+    padding: 0;
+    position: relative;
+    font-size: 1vw;
+    bottom: -10px;
+    margin-top: 15em;
     height: 12vh;
     width: 100%;
     background: #1f2d4f;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
-#footer img{
+footer img{
+    position: absolute;
     height: 5em;
-    width: 15em;
     margin-left: 1em;
     margin-right: 1em;
 }
 
-#footer div{
+footer div{
     text-align: right;
     height: 5em;
-    padding: 1em 2em;
+    padding-right: 1em;
     color: #fff;
     box-sizing: border-box;
 }
